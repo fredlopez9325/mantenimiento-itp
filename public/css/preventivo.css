@@ -1,0 +1,142 @@
+@charset "UTF-8";
+.contenedor  {
+  width: 100%;
+  height: 100%;
+  font-family: Arial;
+}
+
+.table-top {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-top__div-1 {
+  width: 100%;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+.table-top__div-1 h4 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.parameters {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+.parameters h4 {
+  font-size: 14px;
+}
+.parameters hr {
+  width: 200px;
+  display: block;
+  margin-top: 2em;
+  margin-left: 5px;
+}
+.parameters .item-left-6 {
+  margin-left: 6em;
+}
+
+.table__cont {
+  width: 100%;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+.table__cont table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table__cont table thead {
+  width: 100%;
+}
+.table__cont table thead tr {
+  width: 100%;
+  border: 1px solid;
+}
+.table__cont table thead tr .no {
+  width: 3%;
+  font-size: 14px;
+  border-left: 1px solid;
+}
+.table__cont table thead tr .service {
+  width: 31%;
+  font-size: 14px;
+  border-left: 1px solid;
+}
+.table__cont table thead tr .type {
+  width: 4%;
+  font-size: 14px;
+  border-left: 1px solid;
+}
+.table__cont table thead tr .e {
+  width: 2%;
+  font-size: 14px;
+  border-left: 1px solid;
+}
+.table__cont table thead tr .mes {
+  width: 5%;
+  font-size: 14px;
+  border-left: 1px solid;
+}
+
+.text__footer {
+  width: 100%;
+}
+.text__footer h4 {
+  font-size: 12px;
+  color: #383838;
+  text-align: left;
+  font-weight: 300;
+}
+
+.datos {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+.datos h4 {
+  font-size: 14px;
+}
+.datos hr {
+  width: 250px;
+  display: block;
+  margin-top: 2em;
+  margin-left: 5px;
+}
+.datos .ml-6 {
+  margin-left: 6em;
+}
+
+.datos__2 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+.datos__2 h4 {
+  font-size: 14px;
+}
+.datos__2 hr {
+  width: 250px;
+  display: block;
+  margin-top: 2em;
+  margin-left: 5px;
+}
+.datos__2 .ml-6 {
+  margin-left: 6em;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 3%;
+  text-align: left;
+}
+
+.ml-6 {
+  margin-left: 6em;
+}
